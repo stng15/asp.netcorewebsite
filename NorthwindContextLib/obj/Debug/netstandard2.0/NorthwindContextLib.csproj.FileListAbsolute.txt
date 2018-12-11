@@ -1,0 +1,12 @@
+C:\code\Part3\NorthwindContextLib\bin\Debug\netstandard2.0\NorthwindContextLib.deps.json
+C:\code\Part3\NorthwindContextLib\bin\Debug\netstandard2.0\NorthwindContextLib.dll
+C:\code\Part3\NorthwindContextLib\bin\Debug\netstandard2.0\NorthwindContextLib.pdb
+C:\code\Part3\NorthwindContextLib\bin\Debug\netstandard2.0\NorthwindEntitiesLib.dll
+C:\code\Part3\NorthwindContextLib\bin\Debug\netstandard2.0\NorthwindEntitiesLib.pdb
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.csprojAssemblyReference.cache
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.csproj.CoreCompileInputs.cache
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.AssemblyInfoInputs.cache
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.AssemblyInfo.cs
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.csproj.CopyComplete
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.dll
+C:\code\Part3\NorthwindContextLib\obj\Debug\netstandard2.0\NorthwindContextLib.pdb
