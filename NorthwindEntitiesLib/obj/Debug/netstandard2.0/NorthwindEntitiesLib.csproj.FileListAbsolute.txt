@@ -6,3 +6,4 @@ C:\code\Part3\NorthwindEntitiesLib\obj\Debug\netstandard2.0\NorthwindEntitiesLib
 C:\code\Part3\NorthwindEntitiesLib\obj\Debug\netstandard2.0\NorthwindEntitiesLib.AssemblyInfo.cs
 C:\code\Part3\NorthwindEntitiesLib\obj\Debug\netstandard2.0\NorthwindEntitiesLib.dll
 C:\code\Part3\NorthwindEntitiesLib\obj\Debug\netstandard2.0\NorthwindEntitiesLib.pdb
+C:\code\Part3\NorthwindEntitiesLib\obj\Debug\netstandard2.0\NorthwindEntitiesLib.csprojAssemblyReference.cache

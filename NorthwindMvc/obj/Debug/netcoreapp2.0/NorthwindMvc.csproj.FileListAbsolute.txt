@@ -1,0 +1,15 @@
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindMvc.deps.json
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindMvc.runtimeconfig.json
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindMvc.runtimeconfig.dev.json
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindMvc.dll
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindMvc.pdb
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindContextLib.dll
+C:\code\Part3\NorthwindMvc\bin\Debug\netcoreapp2.0\NorthwindEntitiesLib.dll
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.csproj.CoreCompileInputs.cache
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.AssemblyInfoInputs.cache
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.AssemblyInfo.cs
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.csproj.CopyComplete
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.dll
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.pdb
+C:\code\Part3\NorthwindMvc\obj\Debug\netcoreapp2.0\NorthwindMvc.csprojAssemblyReference.cache

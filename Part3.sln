@@ -5,9 +5,11 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthwindWeb", "NorthwindWeb\NorthwindWeb.csproj", "{3D274976-B4FF-41D1-ACCF-E46BB73D4414}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindEntitiesLib", "NorthwindEntitiesLib\NorthwindEntitiesLib.csproj", "{9946700A-CB73-460B-BBE4-4A9CFA060E76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthwindEntitiesLib", "NorthwindEntitiesLib\NorthwindEntitiesLib.csproj", "{9946700A-CB73-460B-BBE4-4A9CFA060E76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindContextLib", "NorthwindContextLib\NorthwindContextLib.csproj", "{92E1BAA3-B0C1-4031-B135-DD83C490F08F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NorthwindContextLib", "NorthwindContextLib\NorthwindContextLib.csproj", "{92E1BAA3-B0C1-4031-B135-DD83C490F08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindMvc", "NorthwindMvc\NorthwindMvc.csproj", "{AAB5D310-7AD2-45C4-8034-37934452245B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{92E1BAA3-B0C1-4031-B135-DD83C490F08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92E1BAA3-B0C1-4031-B135-DD83C490F08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92E1BAA3-B0C1-4031-B135-DD83C490F08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAB5D310-7AD2-45C4-8034-37934452245B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAB5D310-7AD2-45C4-8034-37934452245B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAB5D310-7AD2-45C4-8034-37934452245B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAB5D310-7AD2-45C4-8034-37934452245B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Microsoft.EntityFrameworkCore;
 using NorthwindEntitiesLib;
 
@@ -17,67 +16,84 @@ namespace NorthwindContextLib
         public DbSet<Shipper> Shippers { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
 
-        public Northwind(DbContextOptions options) : base(options) { }
+        public Northwind(DbContextOptions options)
+            : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Category>()
-            .Property(c => c.CategoryName)
-            .IsRequired()
-            .HasMaxLength(15);
+                .Property(c => c.CategoryName)
+                .IsRequired()
+                .HasMaxLength(15);
+
             // define a one-to-many relationship
             modelBuilder.Entity<Category>()
-            .HasMany(c => c.Products)
-            .WithOne(p => p.Category);
+                .HasMany(c => c.Products)
+                .WithOne(p => p.Category);
+
             modelBuilder.Entity<Customer>()
-            .Property(c => c.CustomerID)
-            .IsRequired()
-            .HasMaxLength(5);
+                .Property(c => c.CustomerID)
+                .IsRequired()
+                .HasMaxLength(5);
+
             modelBuilder.Entity<Customer>()
-            .Property(c => c.CompanyName)
-            .IsRequired()
-            .HasMaxLength(40);
+                .Property(c => c.CompanyName)
+                .IsRequired()
+                .HasMaxLength(40);
+
             modelBuilder.Entity<Customer>()
-            .Property(c => c.ContactName)
-            .HasMaxLength(30);
+                .Property(c => c.ContactName)
+                .HasMaxLength(30);
+
             modelBuilder.Entity<Customer>()
-            .Property(c => c.Country)
-            .HasMaxLength(15);
+                .Property(c => c.Country)
+                .HasMaxLength(15);
+
             modelBuilder.Entity<Employee>()
-            .Property(c => c.LastName)
-            .IsRequired()
-            .HasMaxLength(20);
+                .Property(c => c.LastName)
+                .IsRequired()
+                .HasMaxLength(20);
+
             modelBuilder.Entity<Employee>()
-            .Property(c => c.FirstName)
-            .IsRequired()
-            .HasMaxLength(10);
+                .Property(c => c.FirstName)
+                .IsRequired()
+                .HasMaxLength(10);
+
             modelBuilder.Entity<Employee>()
-            .Property(c => c.Country)
-            .HasMaxLength(15);
+                .Property(c => c.Country)
+                .HasMaxLength(15);
+
             modelBuilder.Entity<Product>()
-            .Property(c => c.ProductName)
-            .IsRequired()
-            .HasMaxLength(40);
+                .Property(c => c.ProductName)
+                .IsRequired()
+                .HasMaxLength(40);
+
             modelBuilder.Entity<Product>()
-            .HasOne(p => p.Category)
-            .WithMany(c => c.Products);
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Products);
+
             modelBuilder.Entity<Product>()
-            .HasOne(p => p.Supplier)
-            .WithMany(s => s.Products);
+                .HasOne(p => p.Supplier)
+                .WithMany(s => s.Products);
+
             modelBuilder.Entity<OrderDetail>()
-            .ToTable("Order Details");
+                .ToTable("Order Details");
+
             // define multi-column primary key
             // for Order Details table
             modelBuilder.Entity<OrderDetail>()
-            .HasKey(od => new { od.OrderID, od.ProductID });
+                .HasKey(od => new { od.OrderID, od.ProductID });
+
             modelBuilder.Entity<Supplier>()
-            .Property(c => c.CompanyName)
-            .IsRequired()
-            .HasMaxLength(40);
+                .Property(c => c.CompanyName)
+                .IsRequired()
+                .HasMaxLength(40);
+
             modelBuilder.Entity<Supplier>()
-            .HasMany(s => s.Products)
-            .WithOne(p => p.Supplier);
+                .HasMany(s => s.Products)
+                .WithOne(p => p.Supplier);
         }
     }
 }
